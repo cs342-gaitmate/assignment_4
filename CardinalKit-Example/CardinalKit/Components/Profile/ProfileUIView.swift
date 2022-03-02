@@ -22,24 +22,22 @@ struct ProfileUIView: View {
             Text("Profile").font(.system(size: 25, weight:.bold))
             List {
                 Section {
+                    AboutStudyView(color: Color.blue)
                     PatientIDView()
                 }.listRowBackground(Color.white)
                 
                 Section {
                     FallNotificationView()
                     GaitNotificationView()
-                    SendRecordsView()
-                    ChangePasscodeView()
-                    HelpView(site: config.read(query: "Website"))
+                    //SendRecordsView()
+                    //ChangePasscodeView()
                 }
                 
                 Section {
+                    HelpView(site: config.read(query: "Website"))
                     ReportView(color: self.color, email: config.read(query: "Email"))
                     SupportView(color: self.color, phone: config.read(query: "Phone"))
                     DocumentView()
-                }
-                
-                Section {
                     WithdrawView(color: self.color)
                 }
                 

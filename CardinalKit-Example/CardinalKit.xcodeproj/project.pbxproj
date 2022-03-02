@@ -22,7 +22,7 @@
 		2B932F84276BF8D300AB3A02 /* CKReviewConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B932F83276BF8D300AB3A02 /* CKReviewConsentDocument.swift */; };
 		2BD5328326C2CC4E00C4636E /* CkResearchSurveysManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5328226C2CC4E00C4636E /* CkResearchSurveysManager.swift */; };
 		2BD5328526C30F2E00C4636E /* CloudTaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5328426C30F2E00C4636E /* CloudTaskItem.swift */; };
-		2BF6451826C1D0040020C206 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2BF6451826C1D0040020C206 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2BF6452026C1DBE70020C206 /* CK_ORKSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6451F26C1DBE70020C206 /* CK_ORKSerialization.swift */; };
 		2F94C5F22536543600DF8866 /* SceneDelegate+CardinalKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94C5F12536543600DF8866 /* SceneDelegate+CardinalKit.swift */; };
 		8E0A43AC244A4A0400656518 /* CKStudyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A4382244A4A0400656518 /* CKStudyUser.swift */; };
@@ -94,6 +94,8 @@
 		D314690627B48E0E0096E8D4 /* ActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314690527B48E0E0096E8D4 /* ActiveViewController.swift */; };
 		D314690827B4914C0096E8D4 /* GaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314690727B4914C0096E8D4 /* GaitViewController.swift */; };
 		D314690A27B4B8E20096E8D4 /* BaselineSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314690927B4B8E20096E8D4 /* BaselineSurveyViewController.swift */; };
+		D34849D927CF101A0042E654 /* AboutStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34849D827CF101A0042E654 /* AboutStudyView.swift */; };
+		D34849DB27CF2E520042E654 /* AboutStudyViewText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34849DA27CF2E520042E654 /* AboutStudyViewText.swift */; };
 		D36BC87127C860320019311B /* NotificationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BC87027C860320019311B /* NotificationStep.swift */; };
 		D3C49CC527C57A08004520CD /* LaunchUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C49CC427C57A08004520CD /* LaunchUIViewController.swift */; };
 		D3C49CC927C5C613004520CD /* FallNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C49CC827C5C613004520CD /* FallNotificationView.swift */; };
@@ -213,6 +215,8 @@
 		D314690527B48E0E0096E8D4 /* ActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveViewController.swift; sourceTree = "<group>"; };
 		D314690727B4914C0096E8D4 /* GaitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaitViewController.swift; sourceTree = "<group>"; };
 		D314690927B4B8E20096E8D4 /* BaselineSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaselineSurveyViewController.swift; sourceTree = "<group>"; };
+		D34849D827CF101A0042E654 /* AboutStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutStudyView.swift; sourceTree = "<group>"; };
+		D34849DA27CF2E520042E654 /* AboutStudyViewText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutStudyViewText.swift; sourceTree = "<group>"; };
 		D36BC87027C860320019311B /* NotificationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStep.swift; sourceTree = "<group>"; };
 		D3C49CC427C57A08004520CD /* LaunchUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchUIViewController.swift; sourceTree = "<group>"; };
 		D3C49CC827C5C613004520CD /* FallNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallNotificationView.swift; sourceTree = "<group>"; };
@@ -441,6 +445,8 @@
 				8E6E1E2B253539AE0024B8DF /* ChangePasscodeView.swift */,
 				8E6E1E2D25353A1E0024B8DF /* PatientIDView.swift */,
 				8EA664AC2593380D00B6A45A /* SendRecordsView.swift */,
+				D34849D827CF101A0042E654 /* AboutStudyView.swift */,
+				D34849DA27CF2E520042E654 /* AboutStudyViewText.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -818,7 +824,7 @@
 				8E6E1E20253529760024B8DF /* DocumentView.swift in Sources */,
 				8E7FFFBB25DE37FF002982B4 /* CoffeePieChartView.swift in Sources */,
 				8E7FFFB825DE350A002982B4 /* CoffeeUIView.swift in Sources */,
-				2BF6451826C1D0040020C206 /* BuildFile in Sources */,
+				2BF6451826C1D0040020C206 /* (null) in Sources */,
 				2B19DD9226FE1BEB00649CE1 /* JsonToSurvey.swift in Sources */,
 				8E0A43B5244A4A0400656518 /* LocalTaskItem.swift in Sources */,
 				2BD5328326C2CC4E00C4636E /* CkResearchSurveysManager.swift in Sources */,
@@ -839,6 +845,7 @@
 				D253D132250D1BDB00A363E4 /* CKSignInWithAppleStep.swift in Sources */,
 				8E6E1E0D25351D8F0024B8DF /* PageViewController.swift in Sources */,
 				8E0A43AC244A4A0400656518 /* CKStudyUser.swift in Sources */,
+				D34849D927CF101A0042E654 /* AboutStudyView.swift in Sources */,
 				8E0A43C3244A4A0400656518 /* LoginCustomWaitStepViewController.swift in Sources */,
 				8E9CDEB22591739A00C8A228 /* TipView.swift in Sources */,
 				8E7FFFBD25DE38E4002982B4 /* CoffeeChartDataSource.swift in Sources */,
@@ -851,6 +858,7 @@
 				E235077724F7082700CC1899 /* SceneDelegate.swift in Sources */,
 				8E6E1E16253524500024B8DF /* WithdrawalViewController.swift in Sources */,
 				D3CD04D327B0EC1E00C5F5A3 /* HomeUIView.swift in Sources */,
+				D34849DB27CF2E520042E654 /* AboutStudyViewText.swift in Sources */,
 				E2680B1B260A72DD00B755EA /* LoginExistingUserViewController.swift in Sources */,
 				1089FAC327B3B38F0054133A /* PainSurvey.swift in Sources */,
 				8E6E1E2A2535398D0024B8DF /* HelpView.swift in Sources */,

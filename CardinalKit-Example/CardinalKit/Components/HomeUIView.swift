@@ -100,66 +100,6 @@ struct HomeUIView: View {
             
             Spacer()
                 .frame(height: 10)
-            /*
-            HStack {
-                
-                Spacer()
-                
-                Button(action: {
-                    self.showingOnboardingSurvey.toggle()
-                    self.showingOnboardingTask.toggle()
- 
-                }, label: {
-                    Image(systemName: "square.and.pencil")
-                        .padding(.leading)
-                    Text("Onboarding Survey")
-                })
-                    .padding(Metrics.PADDING_BUTTON_LABEL)
-                    .foregroundColor(Color.white)
-                    .font(.title)
-                    .padding(.leading, Metrics.PADDING_HORIZONTAL_MAIN)
-                    .padding(.trailing, Metrics.PADDING_HORIZONTAL_MAIN)
-                    .frame(maxWidth:300)
-                    .frame(minWidth:300)
-                    .background(self.color)
-                    .cornerRadius(10)
-                    .shadow(radius: 2)
-                    .sheet(isPresented: $showingOnboardingTask) {
-                      BaselineSurveyViewController()
-                    }
-                
-                Spacer()
-            }
-             */
-            
-            HStack {
-                
-                Spacer()
-                
-                Button(action: {
-                    self.showingReportFallSurvey.toggle()
-                    self.showingReportFallTask.toggle()
- 
-                }, label: {
-                    Image(systemName: "square.and.pencil")
-                    Text("Report a Fall")
-                })
-                    .padding(Metrics.PADDING_BUTTON_LABEL)
-                    .foregroundColor(Color.white)
-                    .font(.title)
-                    .padding(.leading, Metrics.PADDING_HORIZONTAL_MAIN)
-                    .padding(.trailing, Metrics.PADDING_HORIZONTAL_MAIN)
-                    .frame(minWidth:300)
-                    .frame(maxWidth:300)
-                    .background(self.color)
-                    .cornerRadius(10)
-                    .shadow(radius: 2)
-                    .sheet(isPresented: $showingReportFallTask) {
-                      ReportFallViewController()
-                    }
-                
-                Spacer()
-            }
         
             
             HStack {
@@ -186,6 +126,35 @@ struct HomeUIView: View {
                     .shadow(radius: 2)
                     .sheet(isPresented: $showingGaitTask) {
                         return AnyView(CKTaskViewController(tasks: TaskSamples.sampleWalkingTask))
+                    }
+                
+                Spacer()
+            }
+            
+            HStack {
+                
+                Spacer()
+                
+                Button(action: {
+                    self.showingReportFallSurvey.toggle()
+                    self.showingReportFallTask.toggle()
+ 
+                }, label: {
+                    Image(systemName: "square.and.pencil")
+                    Text("Report a Fall")
+                })
+                    .padding(Metrics.PADDING_BUTTON_LABEL)
+                    .foregroundColor(Color.white)
+                    .font(.title)
+                    .padding(.leading, Metrics.PADDING_HORIZONTAL_MAIN)
+                    .padding(.trailing, Metrics.PADDING_HORIZONTAL_MAIN)
+                    .frame(minWidth:300)
+                    .frame(maxWidth:300)
+                    .background(self.color)
+                    .cornerRadius(10)
+                    .shadow(radius: 2)
+                    .sheet(isPresented: $showingReportFallTask) {
+                      ReportFallViewController()
                     }
                 
                 Spacer()

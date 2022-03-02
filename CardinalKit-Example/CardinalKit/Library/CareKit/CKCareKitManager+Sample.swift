@@ -433,12 +433,14 @@ internal extension OCKStore {
     
     func createContacts() {
         
+        /*
         var contact1 = OCKContact(id: "about_the_study", givenName: "About",
                                   familyName: "GaitMate", carePlanUUID: nil)
         contact1.asset = "AboutGaitMate"
         contact1.title = "Remotely Identifying Temporal Risk for Falls "
         contact1.role = "GaitMate is an app to assess the risk of falls in older adults. The idea for the app was created by the two Stanford clinicians Brian Suffoletto and David Kim, who have conducted research on this topic for several years. Together with a team of students from the Stanford Byers Center for Biodesign the idea was brought to life. By using this app and participating in this study you are contributing to fall prevention. We thank you very much for your commitment and time! If you have further questions about this project feel free to reach out."
         ()
+        */
         
         var contact2 = OCKContact(id: "brian", givenName: "Brian",
                                   familyName: "Suffoletto", carePlanUUID: nil)
@@ -474,16 +476,8 @@ internal extension OCKStore {
             return address
         }()
         
-        addContacts([contact3, contact2, contact1])
+        addContacts([contact3, contact2])
     }
-    
-    /*
-    let chartView = OCKCartesianChartView(type: .bar)
-    chartView.headerView.titleLabel.text = "Doxylamine"
-    chartView.headerView.detailLabel.text = "GaitMate is an app to assess the risk of falls in older adults. The idea for the app was created by the two Stanford clinicians Brian Suffoletto and David Kim, who have conducted research on this topic for several years. Together with a team of students from the Stanford Byers Center for Biodesign the idea was brought to life. By using this app and participating in this study you are contributing to fall prevention. We thank you very much for your commitment and time! If you have further questions about this project feel free to reach out."
-    }
-    */
-    
 }
 
 
