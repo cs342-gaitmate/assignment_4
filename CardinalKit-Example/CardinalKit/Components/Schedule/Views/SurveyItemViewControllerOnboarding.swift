@@ -96,7 +96,7 @@ import CareKitUI
 import CareKitStore
 
 // 1. Subclass a task view controller to customize the control flow and present a ResearchKit survey!
-class SurveyItemViewController: OCKInstructionsTaskViewController, ORKTaskViewControllerDelegate {
+class SurveyItemViewControllerOnboarding: OCKInstructionsTaskViewController, ORKTaskViewControllerDelegate {
 
     // 2. This method is called when the use taps the button!
     override func taskView(_ taskView: UIView & OCKTaskDisplayable, didCompleteEvent isComplete: Bool, at indexPath: IndexPath, sender: Any?) {
@@ -108,7 +108,7 @@ class SurveyItemViewController: OCKInstructionsTaskViewController, ORKTaskViewCo
         }
 
         // 2b. If the user attempted to mark the task complete, display a ResearchKit survey.
-        let surveyViewController = ORKTaskViewController(task: TaskSamples.sampleWalkingTask, taskRun: nil)
+        let surveyViewController = ORKTaskViewController(task: OnboardingSurvey.onboardingSurvey, taskRun: nil)
         // let surveyViewController = ORKTaskViewController(task: task, taskRun: nil)
         surveyViewController.delegate = self
 
@@ -155,7 +155,7 @@ class SurveyItemViewController: OCKInstructionsTaskViewController, ORKTaskViewCo
     }
 }
 
-class SurveyItemViewSynchronizer: OCKInstructionsTaskViewSynchronizer {
+class SurveyItemViewSynchronizerOnboarding: OCKInstructionsTaskViewSynchronizer {
 
     // Customize the initial state of the view
     override func makeView() -> OCKInstructionsTaskView {
