@@ -100,7 +100,7 @@ struct HomeUIView: View {
             
             Spacer()
                 .frame(height: 10)
-            
+            /*
             HStack {
                 
                 Spacer()
@@ -130,6 +130,7 @@ struct HomeUIView: View {
                 
                 Spacer()
             }
+             */
             
             HStack {
                 
