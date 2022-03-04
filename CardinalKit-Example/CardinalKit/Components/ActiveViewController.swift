@@ -13,6 +13,7 @@ import ResearchKit
 
 struct ActiveViewController: UIViewControllerRepresentable {
     typealias UIViewControllerType = ORKTaskViewController
+    let fileContents = ""
     
     func makeCoordinator() -> SurveyViewCoordinator {
         SurveyViewCoordinator()
@@ -37,7 +38,7 @@ struct ActiveViewController: UIViewControllerRepresentable {
             // Step 1: Video Instruction step
             let videoInstructionStep = ORKVideoInstructionStep(identifier: "videoInstructionStep")
                 videoInstructionStep.title = NSLocalizedString("Video Instruction Step", comment: "")
-                videoInstructionStep.videoURL = URL(string: "https://drive.google.com/uc?export=open&id=1dRJGpB1m7OzyxwFWkGOxyFdXagFUOahN")
+                videoInstructionStep.videoURL = URL(string:"https://drive.google.com/uc?export=open&id=1dRJGpB1m7OzyxwFWkGOxyFdXagFUOahN")
                 //videoInstructionStep.videoURL = URL(string: "fileContents")
                 videoInstructionStep.thumbnailTime = 2 // Customizable thumbnail timestamp
             steps += [videoInstructionStep]

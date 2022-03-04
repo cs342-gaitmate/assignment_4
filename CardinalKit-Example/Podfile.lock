@@ -414,7 +414,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - GoogleSignIn
   - Granola (from `https://github.com/CardinalKit/Granola.git`, branch `main`)
-  - ResearchKit (from `https://github.com/ResearchKit/ResearchKit.git`, branch `main`)
+  - ResearchKit (from `https://github.com/cs342-gaitmate/ResearchKit.git`, branch `main`)
 
 SPEC REPOS:
   trunk:
@@ -462,15 +462,15 @@ EXTERNAL SOURCES:
     :git: https://github.com/CardinalKit/Granola.git
   ResearchKit:
     :branch: main
-    :git: https://github.com/ResearchKit/ResearchKit.git
+    :git: https://github.com/cs342-gaitmate/ResearchKit.git
 
 CHECKOUT OPTIONS:
   Granola:
     :commit: 4b6a421bab81bea5fad4b124b0441b3dd2d82c6b
     :git: https://github.com/CardinalKit/Granola.git
   ResearchKit:
-    :commit: 90c68d0d195f23fff1f618a9a4ffa518be9ac845
-    :git: https://github.com/ResearchKit/ResearchKit.git
+    :commit: de3e62847858cc9cac67a6254a1cb9dd50c0b65c
+    :git: https://github.com/cs342-gaitmate/ResearchKit.git
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -512,6 +512,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
   Zip: 8877eede3dda76bcac281225c20e71c25270774c
 
-PODFILE CHECKSUM: 549c36170930bcd868333a0b59bd5f15026d7e2a
+PODFILE CHECKSUM: cf247e4a3cd43fabf839b7ef13c97eb581addcb7
 
 COCOAPODS: 1.11.2
