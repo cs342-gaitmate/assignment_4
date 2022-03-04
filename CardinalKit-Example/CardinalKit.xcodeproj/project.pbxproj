@@ -14,6 +14,7 @@
 		10B2985027CEEEB500FFFCA3 /* SurveyItemViewControllerOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2984F27CEEEB500FFFCA3 /* SurveyItemViewControllerOnboarding.swift */; };
 		10B2985227CEEF7900FFFCA3 /* OnboardingSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2985127CEEF7900FFFCA3 /* OnboardingSurvey.swift */; };
 		10C6BA8D27B8480D0022429C /* ReportFallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C6BA8C27B8480D0022429C /* ReportFallViewController.swift */; };
+		270E9B7327D0F26700D60740 /* GaitTaskInstructionVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 270E9B7227D0F26700D60740 /* GaitTaskInstructionVideo.mp4 */; };
 		27653A13272A2E7700D74E83 /* LocalTaskListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27653A12272A2E7700D74E83 /* LocalTaskListItemView.swift */; };
 		2B19DD9226FE1BEB00649CE1 /* JsonToSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19DD9126FE1BEB00649CE1 /* JsonToSurvey.swift */; };
 		2B19DD9426FE1D2600649CE1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19DD9326FE1D2600649CE1 /* TestViewController.swift */; };
@@ -133,6 +134,7 @@
 		10B2985127CEEF7900FFFCA3 /* OnboardingSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSurvey.swift; sourceTree = "<group>"; };
 		10C6BA8C27B8480D0022429C /* ReportFallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportFallViewController.swift; sourceTree = "<group>"; };
 		270AF36127872C13002945A7 /* CardinalKit_ExampleRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CardinalKit_ExampleRelease.entitlements; sourceTree = "<group>"; };
+		270E9B7227D0F26700D60740 /* GaitTaskInstructionVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GaitTaskInstructionVideo.mp4; sourceTree = "<group>"; };
 		27653A12272A2E7700D74E83 /* LocalTaskListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTaskListItemView.swift; sourceTree = "<group>"; };
 		2B19DD9126FE1BEB00649CE1 /* JsonToSurvey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonToSurvey.swift; sourceTree = "<group>"; };
 		2B19DD9326FE1D2600649CE1 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				270E9B7227D0F26700D60740 /* GaitTaskInstructionVideo.mp4 */,
 				270AF36127872C13002945A7 /* CardinalKit_ExampleRelease.entitlements */,
 				8E0A438B244A4A0400656518 /* CardinalKit-Example.entitlements */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
@@ -649,6 +652,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270E9B7327D0F26700D60740 /* GaitTaskInstructionVideo.mp4 in Resources */,
 				8E0A43B0244A4A0400656518 /* LaunchScreen.storyboard in Resources */,
 				104C940827A276F000340E2F /* GoogleService-Info.plist in Resources */,
 				E2F1FD7824D62064006C39DF /* CKConfiguration.plist in Resources */,
