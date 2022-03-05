@@ -27,13 +27,13 @@ struct ActiveViewController: UIViewControllerRepresentable {
             var steps = [ORKStep]()
         
             // Step 1: Video Instruction step
-            let videoPath = Bundle.main.path(forResource: "GaitTaskInstructionVideo", ofType: "mp4")!
-            let videoUrl = URL(fileURLWithPath: videoPath)
+            //let videoPath = Bundle.main.path(forResource: "Gait_Task_Video", ofType: "mp4")!
+            //let videoUrl = URL(fileURLWithPath: videoPath)
             
             let videoInstructionStep = ORKVideoInstructionStep(identifier: "videoInstructionStep")
                 videoInstructionStep.title = NSLocalizedString("Video Instruction Step", comment: "")
-                //videoInstructionStep.videoURL = URL(string: "https://drive.google.com/uc?export=open&id=1dRJGpB1m7OzyxwFWkGOxyFdXagFUOahN")
-                videoInstructionStep.videoURL = videoUrl
+                videoInstructionStep.videoURL = URL(string: "https://drive.google.com/uc?export=open&id=1dRJGpB1m7OzyxwFWkGOxyFdXagFUOahN")
+                //videoInstructionStep.videoURL = videoUrl
           
                 videoInstructionStep.thumbnailTime = 2 // Customizable thumbnail timestamp
             steps += [videoInstructionStep]

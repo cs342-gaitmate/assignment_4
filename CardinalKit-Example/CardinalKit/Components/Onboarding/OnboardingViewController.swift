@@ -45,7 +45,7 @@ struct OnboardingViewController: UIViewControllerRepresentable {
         *  STEP (3): get permission to collect HealthKit data
         **************************************************************/
         // see `HealthDataStep` to configure!
-        let healthDataStep = CKHealthDataStep(identifier: "Healthkit")
+        //let healthDataStep = CKHealthDataStep(identifier: "Healthkit")
         
         /* **************************************************************
         *  STEP (3.5): get permission to collect HealthKit health records data

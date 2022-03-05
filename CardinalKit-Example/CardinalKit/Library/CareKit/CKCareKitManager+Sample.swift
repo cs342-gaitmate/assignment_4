@@ -449,7 +449,7 @@ internal extension OCKStore {
         contact2.role = "Dr. Brian Suffoletto is a practicing emergency physician at the Stanford Emergency Department."
         contact2.emailAddresses = [OCKLabeledValue(label: CNLabelEmailiCloud, value: "suffbp@stanford.edu")]
         contact2.phoneNumbers = [OCKLabeledValue(label: CNLabelWork, value: "(111) 111-1111")]
-        contact2.messagingNumbers = [OCKLabeledValue(label: CNLabelWork, value: "(111) 111-1111")]
+        //contact2.messagingNumbers = [OCKLabeledValue(label: CNLabelWork, value: "(111) 111-1111")]
         
         contact2.address = {
             let address = OCKPostalAddress()
@@ -465,8 +465,8 @@ internal extension OCKStore {
         contact3.asset = "DavidKim"
         contact3.title = "Emergency Department"
         contact3.role = "Dr. David Kim is a practicing emergency physician at the Stanford Emergency Department."
+        contact2.emailAddresses = [OCKLabeledValue(label: CNLabelEmailiCloud, value: "davidak@stanford.edu")]
         contact3.phoneNumbers = [OCKLabeledValue(label: CNLabelWork, value: "(650) 725-9445")]
-        contact3.messagingNumbers = [OCKLabeledValue(label: CNLabelWork, value: "(650) 723-0121 (fax)")]
         contact3.address = {
             let address = OCKPostalAddress()
             address.street = "900 Welch Rd Ste 350"
