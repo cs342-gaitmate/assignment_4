@@ -1,32 +1,31 @@
-<img src="https://github.com/CardinalKit/CardinalKit/blob/master/CardinalKit-Web-Assets/header.png?raw=true" alt="cardinalkit logo">
+## GaitMate
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END --> 
+GaitMate is an iOS research app developed at Stanford University. Physicians from the Stanford Health Care Department for Emergency Medicine paired up the students at the Stanford Byers Center for Biodesign to build a user-friendly app using Stanford’s Cardinal Kit to automates at-home safe functional mobility assessments and ultimately build predictive models using at-home data. Apple's open source frameworks ResearchKit and CareKit are used to realize the app.
 
----
 
-<img src="https://github.com/CardinalKit/CardinalKit/blob/main/CardinalKit-Web-Assets/CK_Map.jpg?raw=true" alt="cardinalkit map">
+<img width="1332" alt="Overview" src="https://user-images.githubusercontent.com/97294398/157364817-56d65cc8-7c99-47bc-a22d-2ffe847ac31a.png">
 
 Includes:
 * Informed consent process using ResearchKit.
 * Track day-to-day adherence with CareKit.
-* Monitor health data with HealthKit.
-* Collect and upload EHR data.
-* CoreMotion data demo.
-* Awesome SwiftUI templates.
-* Zero-code [customizable configuration file.](https://cardinalkit.org/docs/ckconfig)
-* GCP Firebase Integration.
+* CoreMotion accelerometer data collection.
+* Gait task to assess functional mobility.
+* GCP Firebase Integration to store data.
+* Fall risk prediction using Machine Learning & PyTorch.
+* Report a Fall feature.
+* Push notifications.
+* SwiftUI interfaces.
 
-## Build your App with CardinalKit
+## Getting Started
 
-This repository contains a fully functional example in the `CardinalKit-Example` directory that you can use as a starting point for building your own app. To get started, clone this repository and follow our simple [setup instructions](https://cardinalkit.org/cardinalkit-docs/1-cardinalkit-app/1-start.html).
+Requirements:
+The GaitMate codebase supports iOS and requires Xcode 8.0 or newer.
 
-Feel free to join our Slack community or attend one of our workshops or buildathons for help customizing your app! Learn more at https://cardinalkit.org.
+Installation:
+Clone the lasted version of the main branch of this repository to get started.
 
-## Contribute to CardinalKit
-
-Head on over to https://cardinalkit.org/ to get onboarded to our open source community ⚡️ 
+Building
+Open the file CardinalKit.xcworkspace and run the app on a simulator from Xcode. To collect real accelerometer data you need an Apple Developer account to be able to test it on your iPhone.
 
 ## Contributors ✨
 
