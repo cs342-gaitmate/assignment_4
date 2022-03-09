@@ -77,6 +77,8 @@ Open the file CardinalKit.xcworkspace and run the app on a simulator from Xcode.
   </tr>
 </table>
 
+<p>&nbsp;</p>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
