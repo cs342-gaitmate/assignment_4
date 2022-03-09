@@ -2,7 +2,7 @@
 
 # GaitMate
 
-GaitMate is an iOS research app developed at Stanford University. Physicians from the Stanford Health Care Department for Emergency Medicine paired up the students at the Stanford Byers Center for Biodesign to build a user-friendly app using Stanford’s Cardinal Kit to automates at-home safe functional mobility assessments and ultimately build predictive models using at-home data. Apple's open source frameworks ResearchKit and CareKit are used to realize the app.
+GaitMate is an iOS research app developed at Stanford University. Physicians from the Stanford Health Care Department for Emergency Medicine paired up with students at the Stanford Byers Center for Biodesign to build a user-friendly app using Stanford’s Cardinal Kit to automate at-home safe functional mobility assessments and ultimately build predictive models using at-home data. Apple's open source frameworks ResearchKit and CareKit were used to realize the app.
 <p>&nbsp;</p>
 
 <img width="1332" alt="Overview" src="https://user-images.githubusercontent.com/97294398/157364817-56d65cc8-7c99-47bc-a22d-2ffe847ac31a.png">
@@ -37,7 +37,7 @@ On first use, the app collects general demographic and health-related data from 
 The gait task is a modified version of the ResearchKit Active Task called Gait and Balance. It records the user's gait data, stores it in Google Firebase, and sends it to our gait identification model for fall risk analysis.
 
 ### Report a Fall
-The Report a Fall feature is a weekly survey asking the study participant if they fell in the last week. A ResearchKit survey is used for the digital questionnaire. The data is stored in Firebase.
+The Report a Fall feature is a weekly survey asking the study participant if they fell in the past week. A ResearchKit survey is used for the digital questionnaire. The data is stored in Firebase.
 
 ### Schedule
 A CareKit schedule is used to display completed and upcoming tasks to the user. The schedule includes the Gait Task and Report a Fall. 
