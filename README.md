@@ -1,9 +1,13 @@
+<p>&nbsp;</p>
+
 # GaitMate
 
 GaitMate is an iOS research app developed at Stanford University. Physicians from the Stanford Health Care Department for Emergency Medicine paired up the students at the Stanford Byers Center for Biodesign to build a user-friendly app using Stanford’s Cardinal Kit to automates at-home safe functional mobility assessments and ultimately build predictive models using at-home data. Apple's open source frameworks ResearchKit and CareKit are used to realize the app.
-
+<p>&nbsp;</p>
 
 <img width="1332" alt="Overview" src="https://user-images.githubusercontent.com/97294398/157364817-56d65cc8-7c99-47bc-a22d-2ffe847ac31a.png">
+
+<p>&nbsp;</p>
 
 Includes:
 * Informed consent process using ResearchKit.
@@ -16,6 +20,7 @@ Includes:
 * Push notifications.
 * SwiftUI interfaces.
 
+<p>&nbsp;</p>
 
 ## Features
 
@@ -43,6 +48,8 @@ The app reminds the user of the scheduled tasks by sending monthly (Gait task) a
 ### Contacts
 A contact tab is provided to display the contact information of the participants' physicians at Stanford Health Care.
 
+<p>&nbsp;</p>
+
 ## Getting Started
 
 Requirements:
@@ -51,8 +58,10 @@ The GaitMate codebase supports iOS and requires Xcode 8.0 or newer.
 Installation:
 Clone the lasted version of the main branch of this repository to get started.
 
-Building
+Building:
 Open the file CardinalKit.xcworkspace and run the app on a simulator from Xcode. To collect real accelerometer data you need an Apple Developer account to be able to test it on your iPhone.
+
+<p>&nbsp;</p>
 
 ## Contributors
 
