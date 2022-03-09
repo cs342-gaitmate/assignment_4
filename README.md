@@ -15,7 +15,7 @@ Includes:
 * CoreMotion accelerometer data collection.
 * Gait task to assess functional mobility.
 * GCP Firebase Integration to store data.
-* Fall risk prediction using Machine Learning & PyTorch.
+* Fall risk prediction using a pretrained gait identification PyTorch model.
 * Report a Fall feature.
 * Push notifications.
 * SwiftUI interfaces.
@@ -25,25 +25,25 @@ Includes:
 ## Features
 
 ### Onboarding
-When first downloading the app the user is taken through an onboarding process. Login via Apple, Google or Email and password is supported. 
+When first downloading the app, the user is taken through an onboarding process. Login via Apple, Google or Email and password is supported. 
 
 ### Informed Consent
-The app includes a visual consent template explaining the details of the research study and obtaina a signature at the end.
+The app includes a visual consent template explaining the details of the research study with a signature screen.
 
 ### Onboarding Survey
-At first usage the app collects general demographic and health-related data from the study participant.
+On first use, the app collects general demographic and health-related data from the study participant.
 
 ### Gait Task
-The gait task is a modified version of the ResearchKit Active Task called Gait and Balance. It records the user's gait data, stores it on Google Firebase and sends it to PyTorch for analysis of potential future risk of falls using a pretrained machine learning model.
+The gait task is a modified version of the ResearchKit Active Task called Gait and Balance. It records the user's gait data, stores it in Google Firebase, and sends it to our gait identification model for fall risk analysis.
 
 ### Report a Fall
-The Report a Fall feature is a weekly survey asking the study participant if they fell in the last week. A ResearchKit survey is used for the digital questionnaire. The data is store in Firebase.
+The Report a Fall feature is a weekly survey asking the study participant if they fell in the last week. A ResearchKit survey is used for the digital questionnaire. The data is stored in Firebase.
 
 ### Schedule
-A CareKit schedule is used to display completed and upcoming task to the user. The schedule includes the Gait task and Report a Fall. 
+A CareKit schedule is used to display completed and upcoming tasks to the user. The schedule includes the Gait Task and Report a Fall. 
 
 ### Notifications
-The app reminds the user of the scheduled tasks by sending monthly (Gait task) and weekly (Report a Fall) local push notifications.
+The app reminds the user of the scheduled tasks by sending monthly (Gait Task) and weekly (Report a Fall) local push notifications.
 
 ### Contacts
 A contact tab is provided to display the contact information of the participants' physicians at Stanford Health Care.
@@ -59,7 +59,7 @@ Installation:
 Clone the lasted version of the main branch of this repository to get started.
 
 Building:
-Open the file CardinalKit.xcworkspace and run the app on a simulator from Xcode. To collect real accelerometer data you need an Apple Developer account to be able to test it on your iPhone.
+Open the file CardinalKit.xcworkspace and run the app on a simulator from Xcode. To collect real accelerometer data you need an Apple Developer account to test it on your iPhone.
 
 <p>&nbsp;</p>
 
