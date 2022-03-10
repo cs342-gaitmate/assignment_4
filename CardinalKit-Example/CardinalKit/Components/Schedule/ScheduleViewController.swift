@@ -13,7 +13,7 @@ class ScheduleViewController: OCKDailyPageViewController {
     override func dailyPageViewController(_ dailyPageViewController: OCKDailyPageViewController, prepare listViewController: OCKListViewController, for date: Date) {
         
         //let identifiers = ["steps", "surveys", "painSurvey", "sampleWalkingTask"]
-        let identifiers = ["sampleWalkingTask", "onboardingSurvey"]
+        let identifiers = ["sampleWalkingTask", "onboardingSurvey", "reportFall"]
         var query = OCKTaskQuery(for: date)
         query.ids = identifiers
         query.excludesTasksWithNoEvents = true
@@ -86,6 +86,15 @@ class ScheduleViewController: OCKDailyPageViewController {
                     listViewController.appendViewController(surveyCard, animated: false)
                 }
                 
+                if let reportFallTask = tasks.first(where: { $0.id == "reportFall" }) {
+                    let surveyCard = SurveyItemViewControllerReportFall(
+                        viewSynchronizer: SurveyItemViewSynchronizerReportFall(),
+                        task: reportFallTask,
+                        eventQuery: .init(for: date),
+                        storeManager: self.storeManager)
+                    
+                    listViewController.appendViewController(surveyCard, animated: false)
+                }
                 
                 /* PAIN CHART */
                 /*

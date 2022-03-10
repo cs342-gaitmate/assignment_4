@@ -96,6 +96,8 @@
 		D314690A27B4B8E20096E8D4 /* BaselineSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314690927B4B8E20096E8D4 /* BaselineSurveyViewController.swift */; };
 		D34849D927CF101A0042E654 /* AboutStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34849D827CF101A0042E654 /* AboutStudyView.swift */; };
 		D34849DB27CF2E520042E654 /* AboutStudyViewText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34849DA27CF2E520042E654 /* AboutStudyViewText.swift */; };
+		D3590D1927DAA845008BB288 /* SurveyItemViewControllerReportFall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3590D1827DAA845008BB288 /* SurveyItemViewControllerReportFall.swift */; };
+		D3590D1B27DAA90B008BB288 /* ReportFall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3590D1A27DAA90B008BB288 /* ReportFall.swift */; };
 		D36BC87127C860320019311B /* NotificationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BC87027C860320019311B /* NotificationStep.swift */; };
 		D3C49CC527C57A08004520CD /* LaunchUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C49CC427C57A08004520CD /* LaunchUIViewController.swift */; };
 		D3C49CC927C5C613004520CD /* FallNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C49CC827C5C613004520CD /* FallNotificationView.swift */; };
@@ -218,6 +220,8 @@
 		D314690927B4B8E20096E8D4 /* BaselineSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaselineSurveyViewController.swift; sourceTree = "<group>"; };
 		D34849D827CF101A0042E654 /* AboutStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutStudyView.swift; sourceTree = "<group>"; };
 		D34849DA27CF2E520042E654 /* AboutStudyViewText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutStudyViewText.swift; sourceTree = "<group>"; };
+		D3590D1827DAA845008BB288 /* SurveyItemViewControllerReportFall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyItemViewControllerReportFall.swift; sourceTree = "<group>"; };
+		D3590D1A27DAA90B008BB288 /* ReportFall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportFall.swift; sourceTree = "<group>"; };
 		D36BC87027C860320019311B /* NotificationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStep.swift; sourceTree = "<group>"; };
 		D3C49CC427C57A08004520CD /* LaunchUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchUIViewController.swift; sourceTree = "<group>"; };
 		D3C49CC827C5C613004520CD /* FallNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallNotificationView.swift; sourceTree = "<group>"; };
@@ -501,6 +505,7 @@
 				8E9CDEB12591739A00C8A228 /* TipView.swift */,
 				8EA664AF25941A4D00B6A45A /* SurveyItemViewController.swift */,
 				10B2984F27CEEEB500FFFCA3 /* SurveyItemViewControllerOnboarding.swift */,
+				D3590D1827DAA845008BB288 /* SurveyItemViewControllerReportFall.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -526,6 +531,7 @@
 			isa = PBXGroup;
 			children = (
 				8E0A438F244A4A0400656518 /* TaskSamples.swift */,
+				D3590D1A27DAA90B008BB288 /* ReportFall.swift */,
 				1089FAC227B3B38F0054133A /* PainSurvey.swift */,
 				10B2985127CEEF7900FFFCA3 /* OnboardingSurvey.swift */,
 				8E7FFFBC25DE38E4002982B4 /* CoffeeChartDataSource.swift */,
@@ -810,6 +816,7 @@
 				8E6E1E1C253528D70024B8DF /* ReportView.swift in Sources */,
 				8E6E1E26253537E40024B8DF /* TasksUIView.swift in Sources */,
 				8E9CDEAD259170AD00C8A228 /* CKCareKitManager.swift in Sources */,
+				D3590D1B27DAA90B008BB288 /* ReportFall.swift in Sources */,
 				10C6BA8D27B8480D0022429C /* ReportFallViewController.swift in Sources */,
 				8EA664892593213000B6A45A /* CKSendHelper.swift in Sources */,
 				8E6E1E3425353AFE0024B8DF /* EmailHelper.swift in Sources */,
@@ -857,6 +864,7 @@
 				2B932F84276BF8D300AB3A02 /* CKReviewConsentDocument.swift in Sources */,
 				E235077724F7082700CC1899 /* SceneDelegate.swift in Sources */,
 				8E6E1E16253524500024B8DF /* WithdrawalViewController.swift in Sources */,
+				D3590D1927DAA845008BB288 /* SurveyItemViewControllerReportFall.swift in Sources */,
 				D3CD04D327B0EC1E00C5F5A3 /* HomeUIView.swift in Sources */,
 				D34849DB27CF2E520042E654 /* AboutStudyViewText.swift in Sources */,
 				E2680B1B260A72DD00B755EA /* LoginExistingUserViewController.swift in Sources */,

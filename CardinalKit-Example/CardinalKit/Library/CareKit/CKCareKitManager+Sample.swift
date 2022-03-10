@@ -426,7 +426,11 @@ internal extension OCKStore {
         gaitTask.impactsAdherence = true
         gaitTask.instructions = "Functional Mobility Assessment"
         
-        addTasks([gaitTask, survey], callbackQueue: .main, completion: nil)
+        var reportFall = OCKTask(id: "reportFall", title: "Report a Fall 📝", carePlanUUID: nil, schedule: surveySchedule)
+        reportFall.impactsAdherence = true
+        reportFall.instructions = "Take this weekly survey to report if you fell!."
+        
+        addTasks([gaitTask, survey, reportFall], callbackQueue: .main, completion: nil)
         
         createContacts()
     }
